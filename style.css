@@ -1,0 +1,184 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+.row
+{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+body
+{
+	font-family: tahoma;
+
+}
+.hero
+{
+
+	position: absolute;
+	width: 1240px;
+	top: 60%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+
+}
+.fate
+{
+	font-size: 100px;
+}
+header
+{
+
+	
+	background-image: 
+	padding-top: 80px;
+	padding-bottom: 650px;
+	color: white;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+h1
+{
+	color: orange;
+}
+
+
+.main-nav
+{
+
+
+	list-style: none;
+	float: right;
+	margin-top: 50px;
+}
+
+.main-nav li
+{
+
+	display: inline-block;
+	margin-left: 20px;
+    font-size: 17px;
+}
+.main-nav li a
+{
+	color: green;
+	text-decoration: :none;
+	font-size: 99%;
+	font-weight: bold;
+}
+.main-nav li a:hover
+{
+	color: orange;
+	border-bottom: 2px solid orange;
+	transition: all 0.5s ease-in;
+	padding: 15px
+}
+.logo img
+{
+	height: 100px;
+	float: lefts;
+	margin-top: 30px;
+
+}
+.btn
+{
+	border: 3px solid orange;
+	padding: 10px, 30px;
+	color: orange;
+	text-decoration: none;
+	margin-right: 15px
+}
+.button-awesome
+{
+	margin-top: 40px;
+}
+.btn-half
+{
+	background-color: orange;
+	color: green;
+}
+.btn-full:hover
+{
+	background-color: orange;
+	color: green;
+	transition: all 0.5s ease-in;
+}
+
+.copy
+{
+
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.features h3
+{
+
+	margin-top: 3%;
+	margin-bottom: 2%;
+	font-size: 28px;
+
+}
+h3:after
+{
+	width: 100px;
+	height: 2px;
+	background-color: orange;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+.arranging
+{
+	text-align: justify;
+}
+.features i
+{
+	font-size: 40px;
+	color: orange;
+	margin-left: 35%;
+}
+
+.features h4
+{
+	margin-right:40px; 
+}
+
+.travel-diaries
+{
+	list-style: none;
+	width: 100%;
+}
+.travel-diaries li
+{
+	display: block;
+	width: 25%;
+	float: left;
+}
+.travel-photo
+{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+.travel-photo img
+{
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s;
+}
+.travel-photo img:hover
+{
+	transform: scale(1.05);
+}
+.travel
+{
+	margin: 60px;
+
+}
